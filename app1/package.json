@@ -1,0 +1,19 @@
+{
+  "name": "myapp1",
+  "version": "1.0.0",
+  "description": "this is my app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/draggling/Front-End-Tests.git"
+  },
+  "author": "Dan Woo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/draggling/Front-End-Tests/issues"
+  },
+  "homepage": "https://github.com/draggling/Front-End-Tests#readme"
+}
