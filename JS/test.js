@@ -62,9 +62,9 @@ function sliceTest(array, page_size, page_number) {
 //printBooks(paginate(books, 6, 1));
 
 /* Variable Values */
-var books = generateLibrary(500);
+var books = generateLibrary(50);
 let current_page = 1;
-let rows = 14;
+let rows = 6;
 
 /* DOM elements*/
 const list_element = document.getElementById('list');
