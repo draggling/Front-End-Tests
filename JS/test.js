@@ -25,8 +25,11 @@ function randomString(length) {
     var result           = 'ISBN ';
     var characters       = '0123456789';
     var charactersLength = characters.length;
-    for ( var i = 0; i < 10; i++ ) {
-       result += characters.charAt(Math.floor(Math.random() * charactersLength));
+    for ( var i = 0; i < 13; i++ ) {
+        if(i == 3 || i == 5 || i == 10 || i == 12) {
+            result += '-';
+        }
+        result += characters.charAt(Math.floor(Math.random() * charactersLength));
     }
     return result;
  }
